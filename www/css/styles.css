@@ -1,1 +1,52 @@
-
+h1 {
+	color: white;
+}
+tbody {
+	background-color: #103a63;
+	float: right;
+}
+.addButton {
+	position:fixed;
+	bottom:0;
+}
+th.testth {
+  width: 240px;
+  color:#FFFFFF;
+  background-color:#3366CC; 
+  font-size:120%; 
+  padding:1em;
+}
+body {
+	background-image: url('../images/Background.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+table.infobox {
+	font-size:89%;
+}
+tbody.text {
+	max-width: 100%;
+	float: left;
+}
+.testb {
+	margin: 6%;
+	padding: 2%;
+	background-color: #012e59;
+	color: #FFFFFF;
+	border-radius: 10px;
+	min-height: 0.5%;
+	max-width: 35%;
+	float: left;
+	left: 22.0%;
+	position: relative;
+}
+.testtext {
+	float: left;
+	max-width: 45%;
+	padding-right: 1%;
+	text-align:center;
+	word-break: break-all;
+}
+td {
+	color: #FFFFFF;
+}
