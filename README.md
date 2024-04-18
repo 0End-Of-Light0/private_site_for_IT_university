@@ -1,1 +1,1 @@
-sdd
+The main purpose of this site is showing all in game info in convenient form. It consist of three main parts: Header, main body, footer. Header contain name of the site, main body contain all logic of the site and footer contain all buttons and hyperlinks of the site. This site is written on pure JS and HTMl.
