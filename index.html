@@ -11,40 +11,40 @@
   <form>
 	<p>
 		<select name="select" id="Racesel" size="11" multiple>
-			<option selected value="none">Не выбрано</option>
-			<option value="Argon">Аргон</option>
-			<option value="Boron">Борон</option>
-			<option value="Split">Сплит</option>
-			<option value="Teladi">Телади</option>
-			<option value="Paranid">Паранид</option>
-			<option value="Terran">Земляне</option>
-			<option value="ATF">АОГ</option>
-			<option value="Xenon">Ксенон</option>
-			<option value="OCV">ВКО</option>
-			<option value="Friendly Race">Корабли корпораций</option>
+			<option selected value="none">All</option>
+			<option value="Argon">Argon</option>
+			<option value="Boron">Boron</option>
+			<option value="Split">Split</option>
+			<option value="Teladi">Teladi</option>
+			<option value="Paranid">Paranid</option>
+			<option value="Terran">Terran</option>
+			<option value="ATF">ATF</option>
+			<option value="Xenon">Xenon</option>
+			<option value="OCV">OCV</option>
+			<option value="Friendly Race">Corp. ships</option>
 		</select>
 	</p>
 	<p>
 		<select name="select" id="Model" size="12" multiple>
-			<option selected value="none">Не выбрано</option>
-			<option value="M1">Авианосец(M1)</option>
-			<option value="M2">Эсминец(M2)</option>
-			<option value="M3">Тяж. Истребитель(M3)</option>
-			<option value="M4">Средний истребитель(M4)</option>
-			<option value="M5">Легкий Истребитель(M5)</option>
-			<option value="M6">Корвет(M6)</option>
-			<option value="M7">Фрегат(M7)</option>
-			<option value="M8">Бомбандировщик(M8)</option>
-			<option value="TS">Малое грузовое судно(TS)</option>
-			<option value="TM">Малое пассажирское судно(TM)</option>
-			<option value="TL">Большое грузовое судно(TL)</option>
+			<option selected value="none">All</option>
+			<option value="M1">Carriers(M1)</option>
+			<option value="M2">Destroyers(M2)</option>
+			<option value="M3">Heavy fighters(M3)</option>
+			<option value="M4">Interceptors(M4)</option>
+			<option value="M5">Scout(M5)</option>
+			<option value="M6">Corvettes(M6)</option>
+			<option value="M7">Frigates(M7)</option>
+			<option value="M8">Bombers(M8)</option>
+			<option value="TS">Transport(TS)</option>
+			<option value="TM">Personnel Transports(TM)</option>
+			<option value="TL">Heavy Transport(TL)</option>
 		</select>
 		
 	</p>
   </form>
-  <button onclick="showTable()" id="showRes">Показать результаты</button>
+  <button onclick="showTable()" id="showRes">Show results</button>
   </div>
-  <div id="footer"><a href="about.html">О нас</a>    <a href="contacts.html">Контакты</a</div>
+  <div id="footer"><a href="about.html">About us</a>    <a href="contacts.html">Contacts</a</div>
   <script>
 	let res = [];
 	var buttons = "<div class=\"addButton\" id=\"addRes\"><button onclick=\"addResult()\">Показать Еще результаты</button><button onclick=\"delResult()\" id=\"delRes\">Очистить</button></div>"
